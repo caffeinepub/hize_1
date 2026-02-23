@@ -1,25 +1,53 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-23T08:25:03.603Z",
+  "generatedAt": "2026-02-23T08:36:05.812Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
   },
   "requirements": {
-    "total": 2,
+    "total": 6,
     "implemented": 1,
     "items": [
       {
-        "id": "REQ-10",
-        "summary": "Add at least 4 new products to the backend main.mo products array, maintaining the same structure as existing items (id, name, price, description) with realistic fashion items that fit the HIZE premium minimalist aesthetic",
+        "id": "REQ-12",
+        "summary": "Add new product entries to the backend products array in backend/main.mo for hoodies with realistic names, prices ($80-$150 range), and descriptions fitting the HIZE premium minimalist aesthetic",
         "status": "unknown",
         "plannedFiles": [],
         "matchedFiles": []
       },
       {
-        "id": "REQ-11",
-        "summary": "Update frontend ProductGrid.tsx to display all new products in the existing responsive grid layout without modifying the grid structure or styling",
+        "id": "REQ-13",
+        "summary": "Add new product entries to the backend products array in backend/main.mo for shorts with realistic names, prices ($65-$95 range), and descriptions fitting the HIZE premium minimalist aesthetic",
+        "status": "unknown",
+        "plannedFiles": [],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-14",
+        "summary": "Add new product entries to the backend products array in backend/main.mo for sunglasses with realistic names, prices ($120-$180 range), and descriptions fitting the HIZE premium minimalist aesthetic",
+        "status": "unknown",
+        "plannedFiles": [],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-15",
+        "summary": "Add new product entries to the backend products array in backend/main.mo for caps with realistic names, prices ($35-$55 range), and descriptions fitting the HIZE premium minimalist aesthetic",
+        "status": "unknown",
+        "plannedFiles": [],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-16",
+        "summary": "Add at least 3 additional diverse product entries to the backend products array in backend/main.mo such as jackets, sweaters, scarves, or bags with realistic names, appropriate pricing, and descriptions fitting the HIZE premium minimalist aesthetic",
+        "status": "unknown",
+        "plannedFiles": [],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-17",
+        "summary": "Update frontend/src/components/ProductGrid.tsx to add image URL mappings for all newly added products (hoodies, shorts, sunglasses, caps, and additional items) using the existing imageMap pattern with placeholder image URLs",
         "status": "implemented",
         "plannedFiles": [
           "frontend/src/components/ProductGrid.tsx"
@@ -33,14 +61,9 @@
   "changedFiles": [
     "backend/main.mo",
     "build-request.json",
-    "build-template/README.md",
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/public/assets/generated/chinos.dim_800x1000.png",
-    "frontend/public/assets/generated/oxford-shirt.dim_800x1000.png",
-    "frontend/public/assets/generated/sweatshirt.dim_800x1000.png",
-    "frontend/public/assets/generated/wool-scarf.dim_800x1000.png",
     "frontend/src/components/ProductGrid.tsx",
     "project_state.json",
     "scratch/component-selection.json",

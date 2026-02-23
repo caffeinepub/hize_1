@@ -2,8 +2,8 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-update-frontend-productgrid-tsx-to-display-all-new-products-in-the-existing-responsive-grid-layout-without-modifying-the-grid-structure-or-styling",
-      "featureTitle": "Update frontend ProductGrid.tsx to display all new products in the existing responsive grid layout without modifying the grid structure or styling",
+      "featureId": "feature-update-frontend-src-components-productgrid-tsx-to-add-image-url-mappings-for-all-newly-added-products-hoodies-shorts-sunglasses-caps-and-additional-items-using-the-existing-imagemap-pattern-with-placeholder-image-urls",
+      "featureTitle": "Update frontend/src/components/ProductGrid.tsx to add image URL mappings for all newly added products (hoodies, shorts, sunglasses, caps, and additional items) using the existing imageMap pattern with placeholder image URLs",
       "files": [
         "frontend/src/components/ProductGrid.tsx"
       ],
@@ -15,7 +15,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-11"
+        "REQ-17"
       ],
       "confidence": "high"
     }

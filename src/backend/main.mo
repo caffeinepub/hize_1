@@ -61,6 +61,66 @@ actor {
       price = 60;
       description = "Lightweight scarf in grey silk blend";
     }),
+    (9, {
+      id = 9;
+      name = "Sleek Hoodie";
+      price = 95;
+      description = "Minimalist black hoodie with premium cotton blend";
+    }),
+    (10, {
+      id = 10;
+      name = "Elevate Hoodie";
+      price = 110;
+      description = "Heavyweight grey hoodie with oversized fit";
+    }),
+    (11, {
+      id = 11;
+      name = "Urban Shorts";
+      price = 75;
+      description = "Relaxed fit shorts in stone color";
+    }),
+    (12, {
+      id = 12;
+      name = "Active Shorts";
+      price = 85;
+      description = "Lightweight athletic shorts in navy blue";
+    }),
+    (13, {
+      id = 13;
+      name = "Modern Sunglasses";
+      price = 140;
+      description = "Classic black frame sunglasses with UV protection";
+    }),
+    (14, {
+      id = 14;
+      name = "Retro Sunglasses";
+      price = 155;
+      description = "Thick brown frame sunglasses in vintage style";
+    }),
+    (15, {
+      id = 15;
+      name = "Essential Cap";
+      price = 40;
+      description = "Low-profile cotton cap for everyday wear";
+    }),
+    (16, {
+      id = 16;
+      name = "Executive Backpack";
+      price = 180;
+      description = "Minimalist leather backpack in black";
+    }),
+    (17, {
+      id = 17;
+      name = "Wool Overcoat";
+      price = 280;
+      description = "Classic light grey wool overcoat";
+    }),
+    (18, {
+      id = 18;
+      name = "Knitted Scarf";
+      price = 55;
+      description = "Soft taupe knitted scarf for winter";
+    }),
   ].values());
 
   public query ({ caller }) func getProducts() : async [Product] {

@@ -1,21 +1,22 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Expand product catalog with additional collection items",
+  "title": "Add hoodies, shorts, sunglasses, caps, and additional items to product catalog",
   "requirements": [
     {
-      "id": "REQ-11",
-      "summary": "Display new products in the existing ProductGrid component without modifying grid structure or styling",
+      "id": "REQ-17",
+      "summary": "Update frontend ProductGrid component to add image URL mappings for all newly added products (hoodies, shorts, sunglasses, caps, and additional items)",
       "acceptanceCriteria": [
-        "All backend products render automatically in the product grid",
-        "Grid maintains responsive behavior with proper spacing",
-        "New products display with 'Add to Bag' functionality identical to existing items"
+        "All new product names are mapped to image URLs in the imageMap object",
+        "Placeholder image URLs follow the existing pattern (e.g., https://images.unsplash.com/...)",
+        "Images are appropriate for each product category",
+        "All new products display correctly in the product grid with their images"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/ProductGrid.tsx",
           "operation": "modify",
-          "description": "Add mappings for the four new product images (sweatshirt, chinos, oxford-shirt, wool-scarf) to the productImages record, associating them with product IDs 5-8. Reference the generated image files at frontend/public/assets/generated/sweatshirt.dim_800x1000.png, frontend/public/assets/generated/chinos.dim_800x1000.png, frontend/public/assets/generated/oxford-shirt.dim_800x1000.png, and frontend/public/assets/generated/wool-scarf.dim_800x1000.png. The existing grid rendering logic will automatically display all products from the backend including the new ones."
+          "description": "Add imageMap entries for all newly added products: at least 2 hoodies, 2 shorts, 2 sunglasses, 2 caps, and 3 additional diverse products (jackets, sweaters, scarves, bags). Use appropriate Unsplash placeholder URLs for each product category that match the HIZE premium minimalist aesthetic. Ensure product names match exactly what was added in the backend, and maintain the existing imageMap pattern and structure."
         }
       ]
     }

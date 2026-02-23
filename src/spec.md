@@ -1,11 +1,14 @@
 # Specification
 
 ## Summary
-**Goal:** Expand the product catalog with four additional fashion items to provide more collection variety.
+**Goal:** Expand the HIZE product catalog with hoodies, shorts, sunglasses, caps, and additional diverse items to offer customers a broader range of premium minimalist apparel and accessories.
 
 **Planned changes:**
-- Add 4 new premium fashion products (crewneck sweatshirt, chino pants, oxford shirt, wool scarf) to the backend products array
-- Ensure new products automatically display in the existing product grid layout
-- Maintain consistent product structure with unique IDs, names, prices ($25-$150 range), and descriptions
+- Add at least 2 hoodie products to the backend with premium pricing ($80-$150) and descriptions emphasizing organic materials and minimalist design
+- Add at least 2 shorts products to the backend with premium pricing ($65-$95) and descriptions emphasizing comfort and clean lines
+- Add at least 2 sunglasses products to the backend with premium pricing ($120-$180) and descriptions emphasizing craftsmanship and timeless design
+- Add at least 2 cap products to the backend with premium pricing ($35-$55) and descriptions emphasizing quality materials and clean branding
+- Add at least 3 additional diverse products (jackets, sweaters, scarves, bags) with appropriate premium pricing
+- Update frontend image mappings for all new products using placeholder URLs
 
-**User-visible outcome:** Users can browse and add 8 total products to their shopping cart instead of the original 4, with all new items displayed in the same responsive grid.
+**User-visible outcome:** Customers will see a significantly expanded product catalog with 11+ new items across hoodies, shorts, sunglasses, caps, and other categories, all maintaining HIZE's premium minimalist aesthetic.

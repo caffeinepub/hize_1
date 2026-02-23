@@ -12,6 +12,16 @@ const productImages: Record<string, string> = {
   'Minimalist Blazer': '/assets/generated/chinos.dim_800x1000.png',
   'Leather Chelsea Boots': '/assets/generated/oxford-shirt.dim_800x1000.png',
   'Silk Blend Scarf': '/assets/generated/wool-scarf.dim_800x1000.png',
+  'Sleek Hoodie': 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800&h=1000&fit=crop&q=80',
+  'Elevate Hoodie': 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&h=1000&fit=crop&q=80',
+  'Urban Shorts': 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=800&h=1000&fit=crop&q=80',
+  'Active Shorts': 'https://images.unsplash.com/photo-1591195851547-33a0a5e6f6e7?w=800&h=1000&fit=crop&q=80',
+  'Modern Sunglasses': 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=800&h=1000&fit=crop&q=80',
+  'Retro Sunglasses': 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&h=1000&fit=crop&q=80',
+  'Essential Cap': 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=800&h=1000&fit=crop&q=80',
+  'Executive Backpack': 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=1000&fit=crop&q=80',
+  'Wool Overcoat': 'https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&h=1000&fit=crop&q=80',
+  'Knitted Scarf': 'https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=800&h=1000&fit=crop&q=80',
 };
 
 export function ProductGrid() {

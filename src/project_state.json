@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 7,
   "summary": "Minimalist e-commerce website for HIZE, a premium fashion brand. Features clean product catalog, brand story section, shopping cart functionality, and sophisticated minimalist design with smooth navigation.",
   "architectural_notes": [
     "Single-page HTML with sticky navigation and smooth scroll behavior",
@@ -17,7 +17,6 @@
     "No individual product detail pages yet"
   ],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Minimalist product photo of a premium grey crewneck sweatshirt on white background (sweatshirt.dim_800x1000.png)\n- Minimalist product photo of black slim-fit chino pants on white background (chinos.dim_800x1000.png)\n- Minimalist product photo of white cotton oxford shirt on white background (oxford-shirt.dim_800x1000.png)\n- Minimalist product photo of beige wool scarf neatly folded on white background (wool-scarf.dim_800x1000.png)",
   "existing_features": [
     {
       "id": "feature-implement-shopping-cart-functionality-with-add-to-bag-capability-item-count-display-in-navigation-and-ability-to-view-remove-items-from-cart",
@@ -90,6 +89,14 @@
         "REQ-11"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-update-frontend-src-components-productgrid-tsx-to-add-image-url-mappings-for-all-newly-added-products-hoodies-shorts-sunglasses-caps-and-additional-items-using-the-existing-imagemap-pattern-with-placeholder-image-urls",
+      "title": "Update frontend/src/components/ProductGrid.tsx to add image URL mappings for all newly added products (hoodies, shorts, sunglasses, caps, and additional items) using the existing imageMap pattern with placeholder image URLs",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -118,6 +125,52 @@
       "summary": "Add at least 4 new products to the backend main.mo products array, maintaining the same structure as existing items (id, name, price, description) with realistic fashion items that fit the HIZE premium minimalist aesthetic",
       "reqIds": [
         "REQ-10"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add new product categories: hoodies, shorts, sunglasses, caps, and additional items to expand the collection",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Add new product entries to the backend products array in backend/main.mo for hoodies with realistic names, prices ($80-$150 range), and descriptions fitting the HIZE premium minimalist aesthetic",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add new product entries to the backend products array in backend/main.mo for shorts with realistic names, prices ($65-$95 range), and descriptions fitting the HIZE premium minimalist aesthetic",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add new product entries to the backend products array in backend/main.mo for sunglasses with realistic names, prices ($120-$180 range), and descriptions fitting the HIZE premium minimalist aesthetic",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Add new product entries to the backend products array in backend/main.mo for caps with realistic names, prices ($35-$55 range), and descriptions fitting the HIZE premium minimalist aesthetic",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Add at least 3 additional diverse product entries to the backend products array in backend/main.mo such as jackets, sweaters, scarves, or bags with realistic names, appropriate pricing, and descriptions fitting the HIZE premium minimalist aesthetic",
+      "reqIds": [
+        "REQ-16"
       ],
       "status": "pending"
     }
