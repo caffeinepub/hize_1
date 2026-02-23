@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Minimalist e-commerce website for HIZE, a premium fashion brand. Features clean product catalog, brand story section, shopping cart functionality, and sophisticated minimalist design with smooth navigation.",
+  "architectural_notes": [
+    "Single-page HTML with sticky navigation and smooth scroll behavior",
+    "Minimalist design system: Helvetica Neue font stack, neutral color palette (#1a1a1a, #fcfcfc, #e5e5e5)",
+    "CSS Grid and Flexbox for responsive layouts",
+    "Placeholder product images and campaign shots (to be replaced with actual assets)",
+    "Mobile-first responsive breakpoint at 900px"
+  ],
+  "known_issues": [
+    "Shopping cart (BAG) functionality not yet implemented - currently displays static count",
+    "Product images are placeholders, need actual product photography",
+    "Hero section background needs hero image URL",
+    "Navigation menu hidden on mobile without hamburger menu implementation",
+    "No individual product detail pages yet"
+  ],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Minimalist product photo of a premium grey crewneck sweatshirt on white background (sweatshirt.dim_800x1000.png)\n- Minimalist product photo of black slim-fit chino pants on white background (chinos.dim_800x1000.png)\n- Minimalist product photo of white cotton oxford shirt on white background (oxford-shirt.dim_800x1000.png)\n- Minimalist product photo of beige wool scarf neatly folded on white background (wool-scarf.dim_800x1000.png)",
+  "existing_features": [
+    {
+      "id": "feature-implement-shopping-cart-functionality-with-add-to-bag-capability-item-count-display-in-navigation-and-ability-to-view-remove-items-from-cart",
+      "title": "Implement shopping cart functionality with add-to-bag capability, item count display in navigation, and ability to view/remove items from cart",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-homepage-with-hero-section-featuring-summer-uniform-26-heading-tagline-premium-basics-designed-for-the-modern-minimalist-focused-on-form-function-and-the-finest-materials-and-shop-collection-cta-button",
+      "title": "Build homepage with hero section featuring 'Summer Uniform '26' heading, tagline 'Premium basics designed for the modern minimalist. Focused on form, function, and the finest materials.', and 'Shop Collection' CTA button",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-new-arrivals-product-grid-displaying-all-four-products-with-placeholder-images-product-names-and-prices-in-a-responsive-grid-layout",
+      "title": "Create New Arrivals product grid displaying all four products with placeholder images, product names, and prices in a responsive grid layout",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-about-section-with-the-hize-philosophy-story-block-featuring-campaign-image-placeholder-and-brand-narrative-plus-three-value-pillars-sourcing-100-organic-textiles-sourced-from-family-owned-mills-in-northern-italy-and-japan-ethics-fair-wages-and-safe-environments-for-every-hand-that-touches-a-hize-garment-and-intent-every-piece-is-designed-to-be-versatile-moving-seamlessly-from-dawn-to-dusk",
+      "title": "Implement About section with 'The HIZE Philosophy' story block featuring campaign image placeholder and brand narrative, plus three value pillars: Sourcing ('100% organic textiles sourced from family-owned mills in Northern Italy and Japan'), Ethics ('Fair wages and safe environments for every hand that touches a HIZE garment'), and Intent ('Every piece is designed to be versatile, moving seamlessly from dawn to dusk')",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-sticky-navigation-bar-with-hize-logo-uppercase-bold-6px-letter-spacing-navigation-links-shop-about-journal-and-bag-counter-that-updates-dynamically",
+      "title": "Create sticky navigation bar with HIZE logo (uppercase, bold, 6px letter spacing), navigation links (Shop, About, Journal), and Bag counter that updates dynamically",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-footer-with-hize-logo-in-large-letter-spacing-links-to-instagram-privacy-contact-and-copyright-text-2026-hize-studio-all-rights-reserved",
+      "title": "Build footer with HIZE logo in large letter spacing, links to Instagram/Privacy/Contact, and copyright text '© 2026 HIZE STUDIO. ALL RIGHTS RESERVED.'",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-responsive-mobile-layout-where-navigation-links-hide-on-screens-under-900px-width-story-blocks-stack-vertically-and-values-grid-displays-in-single-column",
+      "title": "Implement responsive mobile layout where navigation links hide on screens under 900px width, story blocks stack vertically, and values grid displays in single column",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-minimalist-design-system-with-neutral-color-palette-light-grey-backgrounds-fcfcfc-f9f9f9-dark-text-1a1a1a-helvetica-neue-typography-clean-spacing-and-subtle-hover-transitions-throughout-the-site",
+      "title": "Apply minimalist design system with neutral color palette (light grey backgrounds #fcfcfc, #f9f9f9, dark text #1a1a1a), Helvetica Neue typography, clean spacing, and subtle hover transitions throughout the site",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-frontend-productgrid-tsx-to-display-all-new-products-in-the-existing-responsive-grid-layout-without-modifying-the-grid-structure-or-styling",
+      "title": "Update frontend ProductGrid.tsx to display all new products in the existing responsive grid layout without modifying the grid structure or styling",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Shopping cart/bag functionality with item count and checkout",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Create product catalog with four initial products: Heavyweight Tee ($45), Linen Trousers ($120), Canvas Tote ($35), and Studio Cap ($25)",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add more collection items to the product catalog",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Add at least 4 new products to the backend main.mo products array, maintaining the same structure as existing items (id, name, price, description) with realistic fashion items that fit the HIZE premium minimalist aesthetic",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "status": "pending"
+    }
+  ],
+  "projectName": "HIZE",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

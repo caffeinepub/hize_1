@@ -1,0 +1,65 @@
+{
+  "kind": "build_request",
+  "title": "Expand product catalog with additional collection items",
+  "projectName": "HIZE Studio",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "text": "Add at least 4 new products to the backend main.mo products array, maintaining the same structure as existing items (id, name, price, description) with realistic fashion items that fit the HIZE premium minimalist aesthetic",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "can we add more collecting items/"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Backend products array contains at least 8 total items (4 existing + 4 new)",
+        "New products follow naming conventions consistent with existing items (e.g., 'Heavyweight Tee', 'Linen Trousers')",
+        "Price points range between $25-$150 to maintain premium positioning",
+        "Each product has a unique ID continuing the sequence from existing products"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Update frontend ProductGrid.tsx to display all new products in the existing responsive grid layout without modifying the grid structure or styling",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-6"
+        ],
+        "quotes": [
+          "can we add more collecting items/"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All backend products render automatically in the product grid",
+        "Grid maintains responsive behavior with proper spacing",
+        "New products display with 'Add to Bag' functionality identical to existing items"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the existing four products (Heavyweight Tee, Linen Trousers, Canvas Tote, Studio Cap)",
+    "Maintain single-actor backend architecture with all logic in main.mo",
+    "Preserve existing cart functionality and product card styling"
+  ],
+  "nonGoals": [
+    "Creating individual product detail pages",
+    "Implementing product filtering or search",
+    "Adding product categories or collections",
+    "Modifying the overall page layout or navigation structure"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Minimalist product photo of a premium grey crewneck sweatshirt on white background (sweatshirt.dim_800x1000.png)",
+      "Minimalist product photo of black slim-fit chino pants on white background (chinos.dim_800x1000.png)",
+      "Minimalist product photo of white cotton oxford shirt on white background (oxford-shirt.dim_800x1000.png)",
+      "Minimalist product photo of beige wool scarf neatly folded on white background (wool-scarf.dim_800x1000.png)"
+    ],
+    "edits": []
+  }
+}

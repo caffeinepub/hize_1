@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component that wraps the entire app with CartProvider and renders Navigation, Hero, ProductGrid, About, and Footer components in sequence.",
+  "frontend/src/contexts/CartContext.tsx": "React context provider that manages shopping cart state, fetches products and cart items from backend, and provides cart operations (add, remove, open/close) to child components.",
+  "frontend/src/components/Navigation.tsx": "Sticky navigation bar component displaying HIZE logo, navigation links (Shop, About, Journal) with smooth scroll, and dynamic bag counter that opens cart overlay.",
+  "frontend/src/components/Hero.tsx": "Hero section component with 90vh height displaying \"Summer Uniform '26\" heading, tagline, and \"Shop Collection\" CTA button with hero background image.",
+  "frontend/src/components/ProductGrid.tsx": "Product grid section that fetches and displays all products in responsive grid layout with \"New Arrivals\" header and maps product images to each item, now including four new collection items (Cashmere Sweater, Minimalist Blazer, Leather Chelsea Boots, Silk Blend Scarf).",
+  "frontend/src/components/ProductCard.tsx": "Individual product card component displaying product image, name, price, and \"Add to Bag\" button with loading state and hover effects.",
+  "frontend/src/components/Cart.tsx": "Sliding cart overlay component that displays cart items with product details, quantities, remove buttons, total price, and checkout button.",
+  "frontend/src/components/About.tsx": "About section featuring \"The HIZE Philosophy\" story block with campaign image and brand narrative, plus three value pillars (Sourcing, Ethics, Intent) in responsive grid.",
+  "frontend/src/components/Footer.tsx": "Footer component with HIZE logo, social/legal links, copyright text, and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching products and cart data from backend actor with proper query key management and enabled conditions.",
+  "frontend/src/index.css": "Global styles with OKLCH color system, Helvetica Neue typography, smooth scroll behavior, and minimalist design tokens for light/dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Helvetica Neue font family, custom OKLCH color tokens, and minimalist design system settings."
+}

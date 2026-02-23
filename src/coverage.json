@@ -1,0 +1,50 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-23T08:25:03.603Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-10",
+        "summary": "Add at least 4 new products to the backend main.mo products array, maintaining the same structure as existing items (id, name, price, description) with realistic fashion items that fit the HIZE premium minimalist aesthetic",
+        "status": "unknown",
+        "plannedFiles": [],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-11",
+        "summary": "Update frontend ProductGrid.tsx to display all new products in the existing responsive grid layout without modifying the grid structure or styling",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/ProductGrid.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/ProductGrid.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "backend/main.mo",
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/chinos.dim_800x1000.png",
+    "frontend/public/assets/generated/oxford-shirt.dim_800x1000.png",
+    "frontend/public/assets/generated/sweatshirt.dim_800x1000.png",
+    "frontend/public/assets/generated/wool-scarf.dim_800x1000.png",
+    "frontend/src/components/ProductGrid.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

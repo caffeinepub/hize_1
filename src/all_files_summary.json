@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Motoko actor defining Product and CartItem types, hardcoded product catalog (8 items), and query/update methods for fetching products, managing per-caller shopping carts (getCart, addToCart).",
+  "feature_evidence.json": "Feature evidence report documenting that ProductGrid.tsx was updated to display all new products in the existing responsive grid layout without modifying grid structure or styling.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend source files, describing each component's purpose and key functionality.",
+  "frontend/index.css": "Tailwind CSS base styles with OKLCH color system variables for light and dark modes, plus global resets for body and border styling.",
+  "frontend/index.html": "HTML entry point with UTF-8 charset, viewport meta tag, title \"HIZE\", root div, and module script loading main.tsx.",
+  "frontend/src/App.tsx": "Root React component wrapping the app with CartProvider and rendering Navigation, Hero, ProductGrid, About, and Footer in sequence.",
+  "frontend/src/components/About.tsx": "About section component displaying HIZE philosophy story with campaign image and three value pillars (Sourcing, Ethics, Intent) in responsive grid.",
+  "frontend/src/components/Cart.tsx": "Sliding cart overlay component showing cart items with product details, quantities, remove buttons, total price calculation, and checkout button.",
+  "frontend/src/components/Footer.tsx": "Footer component with HIZE branding, social/legal links, copyright notice, and Caffeine.ai attribution with dynamic UTM tracking.",
+  "frontend/src/components/Hero.tsx": "Hero section with 90vh height, \"Summer Uniform '26\" heading, tagline, hero background image, and smooth-scroll CTA button to shop section.",
+  "frontend/src/components/Navigation.tsx": "Sticky navigation bar with HIZE logo, smooth-scroll links (Shop, About, Journal), dynamic bag counter button, and Cart overlay integration.",
+  "frontend/src/components/ProductCard.tsx": "Reusable product card component displaying product image, name, price, and \"Add to Bag\" button with loading state and hover effects.",
+  "frontend/src/components/ProductGrid.tsx": "Product grid section fetching products from CartContext, mapping product names to image URLs (including four new items), and rendering ProductCard components in responsive grid with \"New Arrivals\" header.",
+  "frontend/src/contexts/CartContext.tsx": "React context provider for cart state management, providing cart items, count, open/close state, and methods to add/remove items and refresh cart data from the backend actor.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and manages the backend actor instance using React Query, handling both authenticated and anonymous actors based on Internet Identity state.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Internet Identity authentication provider and hook for managing user login/logout state, identity delegation, and auth client lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching products and cart items from the backend actor, with proper dependency management on actor availability.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables for light/dark theme color schemes using OKLCH color space, plus base styles for HTML elements.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query client and Internet Identity provider wrappers around the main App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration defining custom color system using OKLCH variables, typography, container queries, animations, and responsive breakpoints for the design system.",
+  "project_state.json": "Project metadata describing a minimalist e-commerce site for HIZE fashion brand, listing architectural decisions, known issues, required placeholder images, and implemented features."
+}
